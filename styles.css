@@ -1,5 +1,16 @@
+#square-Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .square {
-    display: inline-block;
-    margin: 0;
-    padding: 1px;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    height: 100px;width: 100px;
+    margin: 2em;
+    background-color: black;
+    color: white;
+    font-size: 1.5em
+    
 }
